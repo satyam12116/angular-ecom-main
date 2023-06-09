@@ -46,9 +46,9 @@
   "products": [
     {
       "name": "Choclate kitKat Cake ",
-      "price": "550",
-      "category": "Veg Cake",
-      "description": "Frosty Mug Designer Black Forest Cake- 1 Kg",
+      "price": "560",
+      "category": "Non veg Cake",
+      "description": "Frosty Mug Designer Black Forest Cake- 3 Kg",
       "image": "https://www.tastemade.com/_next/image?url=https%3A%2F%2Ftruffle-assets.tastemadecontent.net%2Fpxqrocxwsjcc_1nQuRga556YomKYCYOCOcG_chocolate-kitkat-cake_squareThumbnail_en.png&w=640px&q=50",
       "id": 1
     },
@@ -152,6 +152,28 @@
       "productId": 2,
       "userId": 5,
       "id": 9
+    },
+    {
+      "name": "Genoise Cake",
+      "price": "1000",
+      "category": "Veg Cake",
+      "description": "Frosty Mug Designer Black Forest Cake- 2 Kg",
+      "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2019%2F03%2F04%2Fchocolate-and-cream-layer-cake-1812-cover-2000.jpg&q=60",
+      "quantity": 1,
+      "productId": 2,
+      "userId": 5,
+      "id": 10
+    },
+    {
+      "name": "Red Velvet Cake",
+      "price": "500",
+      "category": "Veg Cake",
+      "description": "Frosty Mug Designer Black Forest Cake- 1 Kg",
+      "image": "https://pbs.twimg.com/media/FpG1kh1WAAQJoSM?format=jpg&name=4096x4096",
+      "quantity": 1,
+      "productId": 3,
+      "userId": 1,
+      "id": 11
     }
   ],
   "orders": [

@@ -22,14 +22,12 @@
 
 .nav .nav-search input {
     flex: 1;
-    color: whitesmoke;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     height: 39px;
     border-right: none;
 }
 
 .nav .nav-search button{
-    color: white;
     border: 1px solid violet;
     height: 39px;
 }
@@ -64,15 +62,14 @@ h1 a{
   top: 40px;
   z-index: 10;
   display: list-item !important;
-  border: 1px solid #ddd;
-  background-color: #fff;
+
   width: 300px;
 }
 .suggested-search li {
   padding:5px;
-  border: 1px solid #ddd;
+  border: 1px solid black;
 }
 .suggested-search li a{
   cursor: pointer;
-  color: white;
+  color: black;
 }
