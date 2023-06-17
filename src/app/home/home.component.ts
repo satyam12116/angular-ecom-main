@@ -8,6 +8,10 @@ import { ProductService } from '../services/product.service';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent implements OnInit {
+  productData:undefined | product;
+  productQuantity:number=1;
+  removeCart=false;
+  cartData:product|undefined;
  popularProducts:undefined|product[];
  trendyProducts:undefined | product[];
   constructor(private product:ProductService) {}
@@ -21,4 +25,5 @@ export class HomeComponent implements OnInit {
       this.trendyProducts=data;
     })
   }
+ 
 }

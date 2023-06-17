@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AboutusComponent } from './aboutus/aboutus.component';
 import { AuthGuard } from './auth.guard';
 import { CartPageComponent } from './cart-page/cart-page.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { ContactusComponent } from './contactus/contactus.component';
 import { HomeComponent } from './home/home.component';
 import { MyOrdersComponent } from './my-orders/my-orders.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
@@ -53,6 +55,13 @@ const routes: Routes = [
   },{
     component:MyOrdersComponent,
     path:'my-orders'
+  },
+  {
+    component:AboutusComponent,
+    path:'about'
+  },{
+    component:ContactusComponent,
+    path:'contact'
   }
 ];
 
